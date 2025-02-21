@@ -1,0 +1,45 @@
+@import '/styles/base.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* 
+@font-face {
+    font-family: Inter ;
+    src: url(../fonts/Inter_18pt-Regular.ttf);
+}
+@font-face {
+    font-family: InterBold ;
+    src: url(../fonts/Inter_18pt-Bold.ttf);
+} */
+
+body{
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    font-family: var(--font-family)
+}
+
+.home .main__heading{
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.home .main__sub-heading{
+    font-size: 40px;
+}
+
+@media(max-width:1220px){
+    .home .main__heading{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 590px) {
+    .home .main__heading{
+        font-size: 40px;
+    }
+
+    .home .main__sub-heading{
+        font-size: 40px;
+    }
+    .home .main__sub-heading{
+        font-size: 24px;
+    }
+}
